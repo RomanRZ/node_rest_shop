@@ -9,7 +9,7 @@ const productRoute = require("./api/routes/products");
 const orderRoute = require("./api/routes/orders");
 
 mongoose.connect(
-  "mongodb+srv://zaknaffein:node-rest-shop@node-rest-shop-eir7p.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://node-rest-shop:node-rest-shop@node-rest-shop-eir7p.mongodb.net/test?retryWrites=true&w=majority",
   {
     useNewUrlParser: true
   }
