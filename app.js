@@ -15,6 +15,8 @@ mongoose.connect(
   }
 );
 
+mongoose.Promise = global.Promise;
+
 app.use(morgan("dev"));
 //GET /orders/5 200 4.024 ms - 41
 // parse application/x-www-form-urlencoded
